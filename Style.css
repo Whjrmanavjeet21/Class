@@ -1,0 +1,30 @@
+body{
+    background-image: -webkit-linear-gradient(red,yellow,green,blue,black,white,purple);
+    text-align: center;
+}
+.heading { 
+    width: 80%; 
+    font-size: 22px; 
+} 
+#camera { 
+    border: 2px dashed rgb(129, 211, 173);
+    width: 350px; 
+    height: 300px; 
+} 
+.name_of_objects, #result_object_name , #result_object_accuracy { 
+    color: yellow; 
+}
+h3:hover{
+    border: ridge;
+    font-size: 30px;
+    font-style: italic;
+    background: chocolate;
+}
+p:hover{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    background-size: 50px;
+    background-color: crimson;
+}
